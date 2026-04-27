@@ -1,10 +1,10 @@
 --- TwoRandos
--- in1: sampling clock
--- in2: sampling clock
--- out1: random sample triggered by input 1
--- out2: random sample triggered by input 1
--- out3: random sample triggered by input 2
--- out4: random sample triggered by input 2
+-- in1: trig on rise
+-- in2: trig on rise
+-- out1: random value triggered by input 1
+-- out2: random value triggered by input 1
+-- out3: random value triggered by input 2
+-- out4: random value triggered by input 2
 
 function init() 
   input[1]{ mode = 'change', direction = 'rising'}
